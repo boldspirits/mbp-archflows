@@ -214,8 +214,11 @@ for_window [class="^.*"] border pixel 1
 # wallpaper 
 exec --no-startup-id ~/.fehbg &
 
+# picom 
+exec --no-startup-id picom -f & 
+
 # lock screen
-bindsym $mod+Control+l exec i3lock -n -i ~/pictures/originsofnature.png -e -f 
+bindsym $mod+Control+l exec i3lock -n -i /usr/share/pixmaps/jean-pierre-ugarte-prisms.jpg -e -f 
 
 # volume control  
 

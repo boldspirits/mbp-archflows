@@ -1,3 +1,4 @@
 ~/.fehgb &
-xrdb -merge ~/.Xresources
-exec i3
+picom -f &
+xrdb -merge ~/.Xresources &
+exec i3 &
